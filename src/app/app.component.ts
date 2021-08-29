@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {WordsFacadeService} from "./services/words-facade.service";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gfd-ng';
+
+  constructor(private facade: WordsFacadeService) {
+  }
+
+  onSearch(text: string) {
+    this.facade.searchUpdated(text);
+  }
 }

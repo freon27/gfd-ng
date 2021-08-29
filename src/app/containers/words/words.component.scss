@@ -1,0 +1,42 @@
+@import 'src/styles/variables';
+
+.card {
+  margin: $small 0;
+  display: block;
+}
+
+.flag {
+  height: 1.5rem;
+}
+
+.english-word {
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  align-items: center;
+
+  h3 {
+    margin: $small 0;
+  }
+}
+
+.category-name {
+  background-color: $dark;
+  color: white;
+  width: auto;
+  border-radius: 999px;
+  padding: $xx-small $small;
+  //margin: $small;
+  display: inline-block;
+  //position: sticky;
+  z-index: 3;
+  top: 100px;
+}
+
+.category-description {
+  padding-left: $small;
+}
+
+.word-list {
+  padding: $small;
+  display: block;
+}

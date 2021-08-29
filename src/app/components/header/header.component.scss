@@ -1,0 +1,62 @@
+@import '/src/styles/variables';
+
+.header {
+  color: white;
+  background-color: $dark;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  padding: $x-small;
+  max-width: 100%;
+  justify-content: stretch;
+  overflow: hidden;
+  z-index: 10;
+
+  .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .right-block {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .nav-links {
+      padding: $x-small 0;
+
+      a {
+        margin: 0 $x-small;
+      }
+
+      a:last-child {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      font-weight: bold;
+      color: white;
+
+      &.link-active {
+        color: $secondary;
+      }
+    }
+  }
+
+  .logo {
+    margin: $x-small;
+    flex: 1 1 auto;
+    text-align: left;
+  }
+
+  .search-input {
+    height: 2rem;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    -webkit-appearance: none;
+
+  }
+}

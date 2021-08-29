@@ -1,0 +1,26 @@
+<ng-container *ngFor="let category of displayWords$ | async">
+  <section class="word-list">
+    <h2 class="category-name">{{ category.categoryName }}</h2>
+    <p class="category-description">a small description of the category</p>
+
+    <div *ngFor="let word of category.words">
+      <app-card class="card">
+        <div class="english-word">
+          <img class="flag" src="/assets/gb.svg" />
+          <h3>{{ word.englishWord }}</h3>
+        </div>
+
+        <div *ngFor="let translation of word.translations">
+          <app-german-verb
+            *ngIf="isGermanVerb(translation)"
+            [verb]="translation"
+          ></app-german-verb>
+          <app-german-noun
+            *ngIf="isGermanNoun(translation)"
+            [noun]="translation"
+          ></app-german-noun>
+        </div>
+      </app-card>
+    </div>
+  </section>
+</ng-container>

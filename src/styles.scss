@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/_variables.scss';
+
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+body {
+
+  /*
+   TODO: I like this but it reduces readability for the About page
+
+   Consider using a card for About or remove this
+  */
+  //background: linear-gradient(#f8f4ee, transparent) fixed,
+  //linear-gradient(to top left, #f8f4ee, transparent) fixed,
+  //linear-gradient(to top right, #f8f4ee, transparent) fixed;
+  //background-blend-mode: screen;
+
+  background-color: #f8f4ee;
+
+
+  line-height: 24px;
+  min-height: 100%;
+  margin: 0;
+  overflow-y: hidden;
+  height: 100%;
+}
+
+a {
+  color: #2c3e50;
+}
+
+.container {
+  height: 100%;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.header {
+  top: 0;
+  display: block;
+  flex: 0 0 auto;
+  position: sticky;
+  z-index: 10;
+}
+
+.content {
+  overflow-y: auto;
+  flex: 1 1 auto;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+  color: $primary;
+  padding: 0;
+}
+

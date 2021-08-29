@@ -1,0 +1,26 @@
+<header class="header">
+  <div class="upper">
+    <h1 class="logo">GfD</h1>
+
+    <div class="right-block">
+      <nav class="nav-links">
+        <a routerLink="/categories" [routerLinkActive]="'link-active'"
+          >Categories</a
+        >
+        | <a routerLink="/words" [routerLinkActive]="'link-active'">Words</a> |
+        <a routerLink="/about" [routerLinkActive]="'link-active'">About</a>
+      </nav>
+    </div>
+  </div>
+  <div class="search-block">
+    <form [formGroup]="formGroup">
+      <input
+        class="search-input"
+        type="search"
+        placeholder="search english words"
+        aria-label="search"
+        formControlName="search"
+      />
+    </form>
+  </div>
+</header>

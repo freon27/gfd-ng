@@ -1,0 +1,9 @@
+@import "/src/styles/variables";
+
+.card {
+  background-color: white;
+  padding: $medium;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.3rem;
+  align-items: flex-start;
+}
