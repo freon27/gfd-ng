@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630261304346,
+  "timestamp": 1630263270629,
   "index": "/gfd-ng/index.html",
   "assetGroups": [
     {
@@ -60,7 +60,7 @@
     "/gfd-ng/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/gfd-ng/index.html": "08a4ade977a9aef5145cc9db21d4e31f6646a9b8",
     "/gfd-ng/main.0eba74e90dbd89b65c0f.js": "3ff371dbe1529b49a1a100c0a9d4235eeccaab9d",
-    "/gfd-ng/manifest.webmanifest": "15d043bd205a0bb8218774d266a45f4a9fcc7836",
+    "/gfd-ng/manifest.webmanifest": "aaa3ce075831dd92517d3e36e9ee7ac8d21bebf1",
     "/gfd-ng/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/gfd-ng/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/gfd-ng/styles.e2be40a0f74156dae085.css": "a3de08a42792c299cf157c330e4ecdcfa7217257"
