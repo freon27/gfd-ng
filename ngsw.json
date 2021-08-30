@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630311363430,
+  "timestamp": 1630334690210,
   "index": "/gfd-ng/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/gfd-ng/favicon.ico",
         "/gfd-ng/index.html",
-        "/gfd-ng/main.a62fd15d6e55a6ec3d46.js",
+        "/gfd-ng/main.d2f202df254485e7c6ca.js",
         "/gfd-ng/manifest.webmanifest",
         "/gfd-ng/polyfills.8c151b8375e767ff858f.js",
         "/gfd-ng/runtime.0e49e2b53282f40c8925.js",
@@ -58,8 +58,8 @@
     "/gfd-ng/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/gfd-ng/assets/logo.png": "1a6ace377133f14a2b2cd7c48f10369a6bc54b2e",
     "/gfd-ng/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/gfd-ng/index.html": "fcb5456cd0cdc606efba17469812f440d63e16ef",
-    "/gfd-ng/main.a62fd15d6e55a6ec3d46.js": "78de5a6fde6048dbb40eea61e84cdc6970689e82",
+    "/gfd-ng/index.html": "3b53a678ed12892ba75bb05ea8d8293ee9a2b1d9",
+    "/gfd-ng/main.d2f202df254485e7c6ca.js": "d8b3a171cfb44789fad89ccb897977986662b0bd",
     "/gfd-ng/manifest.webmanifest": "aaa3ce075831dd92517d3e36e9ee7ac8d21bebf1",
     "/gfd-ng/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/gfd-ng/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
