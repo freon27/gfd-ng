@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630595567831,
+  "timestamp": 1631255486982,
   "index": "/gfd-ng/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/gfd-ng/favicon.ico",
         "/gfd-ng/index.html",
-        "/gfd-ng/main.815315d5e546f873dbd9.js",
+        "/gfd-ng/main.3b364be41befb27bfd71.js",
         "/gfd-ng/manifest.webmanifest",
         "/gfd-ng/polyfills.8c151b8375e767ff858f.js",
         "/gfd-ng/runtime.0e49e2b53282f40c8925.js",
-        "/gfd-ng/styles.e2be40a0f74156dae085.css"
+        "/gfd-ng/styles.3dc0cda1f049c7adb494.css"
       ],
       "patterns": []
     },
@@ -32,6 +32,7 @@
         "/gfd-ng/assets/GitHub-Mark-120px-plus.png",
         "/gfd-ng/assets/GitHub-Mark-32px.png",
         "/gfd-ng/assets/GitHub-Mark-64px.png",
+        "/gfd-ng/assets/arrow-ios-back-outline.svg",
         "/gfd-ng/assets/de.svg",
         "/gfd-ng/assets/gb.svg",
         "/gfd-ng/assets/github-logo.zip",
@@ -43,7 +44,8 @@
         "/gfd-ng/assets/icons/icon-512x512.png",
         "/gfd-ng/assets/icons/icon-72x72.png",
         "/gfd-ng/assets/icons/icon-96x96.png",
-        "/gfd-ng/assets/logo.png"
+        "/gfd-ng/assets/logo.png",
+        "/gfd-ng/assets/menu-outline.svg"
       ],
       "patterns": []
     }
@@ -53,6 +55,7 @@
     "/gfd-ng/assets/GitHub-Mark-120px-plus.png": "8e4af8e0da1da6fb685e86c19afb5322d559a8ca",
     "/gfd-ng/assets/GitHub-Mark-32px.png": "fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8",
     "/gfd-ng/assets/GitHub-Mark-64px.png": "b00f47d766170d5814e4a1270a3c534642923207",
+    "/gfd-ng/assets/arrow-ios-back-outline.svg": "3999f058b8ad7455dcd1906a8a171ff0bb2a6acf",
     "/gfd-ng/assets/de.svg": "07f83f1293b81d803af6c043f369614806c49056",
     "/gfd-ng/assets/gb.svg": "6610d6fa9b53f7ce9b53df4985c67245ed115b3b",
     "/gfd-ng/assets/github-logo.zip": "30fb5af617877e940a1ee325907f22ef34cf0d2a",
@@ -65,13 +68,14 @@
     "/gfd-ng/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/gfd-ng/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/gfd-ng/assets/logo.png": "1a6ace377133f14a2b2cd7c48f10369a6bc54b2e",
+    "/gfd-ng/assets/menu-outline.svg": "1fcfc90993c843f1992378d4d45433a8f49921e4",
     "/gfd-ng/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/gfd-ng/index.html": "b0f91e3a4fe8b7da92acfc37690540164889be3e",
-    "/gfd-ng/main.815315d5e546f873dbd9.js": "c19395e68bcdb6ba487e24559488a51a07c9c7eb",
+    "/gfd-ng/index.html": "fc261ad12b684a86a64a1093141c63847e412161",
+    "/gfd-ng/main.3b364be41befb27bfd71.js": "56dbeaac38d9c5a7aed37f3c0842e01550b68212",
     "/gfd-ng/manifest.webmanifest": "aaa3ce075831dd92517d3e36e9ee7ac8d21bebf1",
     "/gfd-ng/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/gfd-ng/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/gfd-ng/styles.e2be40a0f74156dae085.css": "a3de08a42792c299cf157c330e4ecdcfa7217257"
+    "/gfd-ng/styles.3dc0cda1f049c7adb494.css": "d82b28742a436d4fcc95bac4189fc8c0805fcd85"
   },
   "navigationUrls": [
     {
